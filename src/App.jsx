@@ -137,19 +137,19 @@ function App() {
             <div className="mb-2 flex gap-2">
               <button
                 onClick={() => handleFilterClick('Alphabets')}
-                className={px-4 py-2 rounded-lg ${selectedFilters.includes('Alphabets') ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-800'}}
+                className={`px-4 py-2 rounded-lg ${selectedFilters.includes('Alphabets') ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-800'}`}
               >
                 Alphabets
               </button>
               <button
                 onClick={() => handleFilterClick('Numbers')}
-                className={px-4 py-2 rounded-lg ${selectedFilters.includes('Numbers') ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-800'}}
+                className={`px-4 py-2 rounded-lg ${selectedFilters.includes('Numbers') ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-800'}`}
               >
                 Numbers
               </button>
               <button
                 onClick={() => handleFilterClick('Highest alphabet')}
-                className={px-4 py-2 rounded-lg ${selectedFilters.includes('Highest alphabet') ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-800'}}
+                className={`px-4 py-2 rounded-lg ${selectedFilters.includes('Highest alphabet') ? 'bg-indigo-600 text-white' : 'bg-gray-200 text-gray-800'}`}
               >
                 Highest alphabet
               </button>
